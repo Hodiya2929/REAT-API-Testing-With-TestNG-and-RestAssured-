@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+   <parameter name = "environment" value="input-3"/> 
+    <classes>
+      <class name="functional.tests.statistics.NegativeStatusCode"/>
+      <class name="functional.tests.statistics.PositiveStatusCode"/>
+       <class name="functional.tests.statistics.Responsecorrectness"/>
+      <class name="functional.tests.connections.PositiveStatusCode"/>
+      <class name="functional.tests.connections.NegativeStatusCode"/>
+      <class name="functional.tests.connections.Responsecorrectness"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

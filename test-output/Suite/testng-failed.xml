@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="input-3"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="environment" value="input-3"/>
+    <classes>
+      <class name="functional.tests.connections.Responsecorrectness">
+        <methods>
+          <include name="connectionsPositiveStatusCode" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- functional.tests.connections.Responsecorrectness -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
